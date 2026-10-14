@@ -1,0 +1,29 @@
+.service-grid{
+    margin-top:60px;
+  
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+  }
+  
+  .service-card{
+    background:#fff;
+    color:#111;
+    border-radius:8px;
+    padding:30px;
+  }
+  
+  .service-card .icon{
+    color:#3452ff;
+    font-size:30px;
+    margin-bottom:20px;
+  }
+  
+  .service-card h3{
+    font-size:18px;
+    margin-bottom:15px;
+  }
+  
+  .service-card p{
+    color:#555;
+  }
